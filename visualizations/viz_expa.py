@@ -6,7 +6,7 @@ import ast
 from PIL import Image
 import sys
 sys.path.append('../changeit3d')
-from changeit3d.utils.visualization import visualize_point_clouds_3d_v2
+from visualization import visualize_point_clouds_3d_v2
 
 target_directory = "../data/shapetalk_dataset/shapetalk/point_clouds/scaled_to_align_rendering"
 result_dir = "../data/generation_results"

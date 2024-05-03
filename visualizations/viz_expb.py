@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import sys
 sys.path.append('../changeit3d')
-from changeit3d.utils.visualization import visualize_point_clouds_3d_v2
+from visualization import visualize_point_clouds_3d_v2
 import matplotlib.pyplot as plt
 import ast
 

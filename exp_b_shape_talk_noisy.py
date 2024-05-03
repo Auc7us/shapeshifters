@@ -17,7 +17,7 @@ from changeit3d.utils.basics import parallel_apply
 from changeit3d.models.model_descriptions import load_pretrained_changeit3d_net
 from changeit3d.models.model_descriptions import load_pretrained_pc_ae
 
-from helper import pc_ae_transform_point_clouds, get_transformed_latent_code
+from extras.helper import pc_ae_transform_point_clouds, get_transformed_latent_code
 # from changeit3d.evaluation.auxiliary import pc_ae_transform_point_clouds, sgf_transform_point_clouds
 from changeit3d.external_tools.sgf.loader import initialize_and_load_sgf
 from changeit3d.utils.visualization import visualize_point_clouds_3d_v2, plot_3d_point_cloud
