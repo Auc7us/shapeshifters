@@ -30,7 +30,7 @@ git clone https://github.com/Auc7us/shapeshifters.git
 
 ###  Downloading Data
 
-As mentioned in [our fork](https://github.com/kcmacauley/changeit3d/), download the data from [`optas/changeit3d`](https://github.com/optas/changeit3d?tab=readme-ov-file#shapetalk-dataset--rocket-). After this step, the directory structure should look like this: 
+As mentioned in [our fork](https://github.com/Auc7us/shapeshifters/blob/main/README.md#dependencies), download the data from [`optas/changeit3d`](https://github.com/optas/changeit3d?tab=readme-ov-file#shapetalk-dataset--rocket-). After this step, the directory structure should look like this: 
 
 ```
 shapesifters
