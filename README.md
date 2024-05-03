@@ -11,6 +11,8 @@ Also checkout our [fork of changeit3D repository](https://github.com/kcmacauley/
 The above fork contains important modules required to run the scripts on this repo; please clone them into the same parent directory.
 
 
+
+
 ## Dependencies
 
 ```conda create -n changeit3d python=3.8
@@ -23,10 +25,15 @@ cd ..
 git clone https://github.com/Auc7us/shapeshifters.git
 ```
 
-After compelting the above steps, you should have the following directory structure:
+
+###  Downloading Data
+
+Download the data from the `changeit3d` repository. After this step the directory structure should look like this: 
+
 ```
-shapeshifters/
-changeit3d/
+shapesifters
+changeit3d
+data
 ```
 
 ## Experiments 
@@ -53,10 +60,36 @@ bash scripts/train_listener_noise_sigma_0.3.sh
 
 This will similarly create results in the `data/trained_listener/` directory. 
 
+### A. ChangeIt3D Performance (Varying Language Instructions)
 
-### ChangeIt3D Performance (Source Noise Variation)
+This section evaluates the pretrained changeit3d model's performance to varying language instructions. To run the experiments for this section run, 
+```
+python exp_a_shape_talk_language.py
+```
+
+#### To visualize the point clouds generated:
+```
+python visualizations/viz_exp_a.py
+```
+
+### B. ChangeIt3D Performance (Source Noise Variation)
 
 This section evaluates the pretrained changeit3d model's performance to varying amounts of noise added to the source point cloud To run the experiments for this section run, 
 ```
-python exp_b_shape_talk_noise.py
+python exp_b_shape_talk_noisy.py
 ```
+
+
+##### To visualize the point clouds generated:
+
+```
+python visualizations/viz_exp_b.py
+```
+
+### Evaluation (Chamfer Distance)
+
+To evaluate the performance of the models, we use the Chamfer Distance metric. To run the evaluation for the experiments and in this repo, run the following command:
+```
+python evaluation/evaluate_chamfer_distance.py
+```
+
