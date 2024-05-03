@@ -20,7 +20,7 @@ from changeit3d.language.vocabulary import Vocabulary
 from changeit3d.models.listening_oriented import ablation_model_one, ablation_model_two
 from changeit3d.models.listening_oriented import single_epoch_train, evaluate_listener
 from torch.utils.data import Dataset
-from helper import (
+from extras.helper import (
     pc_ae_transform_point_clouds, 
     get_transformed_latent_code,
     generate_notebook_args, 

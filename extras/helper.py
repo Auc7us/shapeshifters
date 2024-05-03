@@ -13,11 +13,7 @@ import torch
 import pandas as pd
 from ast import literal_eval
 import numpy as np
-import uuid
 from changeit3d.in_out.language_contrastive_dataset import LanguageContrastiveDataset
-
-
-
 from collections import defaultdict
 
 @torch.no_grad()

@@ -5,7 +5,7 @@ from tabulate import tabulate
 import torch
 import sys
 sys.path.append('../changeit3d')
-from evaluation.generic_metrics import chamfer_dists
+from generic_metrics import chamfer_dists
 
 # from helper import load_pretrained_pc_ae, read_saved_args, ShapeTalkCustomShapeDataset, generate_notebook_args
 torch.cuda.empty_cache()

@@ -22,7 +22,7 @@ from changeit3d.external_tools.sgf.loader import initialize_and_load_sgf
 from changeit3d.utils.visualization import visualize_point_clouds_3d_v2, plot_3d_point_cloud
 from changeit3d.in_out.arguments import parse_evaluate_changeit3d_arguments
 from changeit3d.in_out.changeit3d_net import prepare_input_data
-from helper import (
+from extras.helper import (
     describe_pc_ae, 
     load_pretrained_pc_ae, 
     read_saved_args, 
