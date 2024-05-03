@@ -1,0 +1,23 @@
+{
+    "add_shape_glot": false,
+    "batch_size": 2048,
+    "do_training": true,
+    "experiment_tag": null,
+    "gpu_id": 0,
+    "init_lr": 0.0005,
+    "latent_codes_file": "../data/pretrained/shape_latents/pcae_latent_codes.pkl",
+    "listening_model": "ablation_model_one",
+    "log_dir": "../data/trained_listener//ablation_model_1_sigma00",
+    "lr_patience": 8,
+    "max_train_epochs": 100,
+    "num_workers": 10,
+    "pretrained_model_file": "../data/pretrained/listeners/all_shapetalk_classes/rs_2022/single_utter/transformer_based/latent_pcae_based/best_model.pt",
+    "random_seed": 2022,
+    "restrict_shape_class": [],
+    "save_analysis_results": true,
+    "shape_talk_file": "../data/shapetalk_dataset/shapetalk/language/shapetalk_preprocessed_public_version_0.csv",
+    "train_patience": 25,
+    "use_timestamp": false,
+    "vocab_file": "../data/shapetalk_dataset/shapetalk/language/vocabulary.pkl",
+    "weight_decay": 0.001
+}
