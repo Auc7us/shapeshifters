@@ -95,3 +95,6 @@ To evaluate the performance of the models, we use the Chamfer Distance metric. T
 python evaluation/evaluate_chamfer_distance.py
 ```
 
+### Data Set Preparation
+
+To prepare datasets for your own experiments you can utilize our sub-repository `DataSetPrep_PlusVisuals` and update the directories with input pointcloud data from the data file generated in the Downloading Data step. Refer to the README file in that subdirectory for more specifics.
